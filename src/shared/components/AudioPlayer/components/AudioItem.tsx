@@ -1,7 +1,7 @@
 import React, { FunctionComponent, memo, useCallback, useState } from 'react';
 import { Audio } from '../models';
 import { Button, Grid } from '@mui/material';
-import AudioTrack from '../Playlist';
+import AudioTrack from '../AudioTrack';
 
 interface Props {
   audioItem: Audio;
