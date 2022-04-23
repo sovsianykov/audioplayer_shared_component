@@ -3,7 +3,7 @@ import { Grid } from '@mui/material';
 import { Audio } from '../models';
 import AudioItem from '../components/AudioItem';
 
-interface AudioPlayerProps {
+export interface AudioPlayerProps {
   audioItems: Audio[];
 }
 const AudioPlayer: FunctionComponent<AudioPlayerProps> = ({ audioItems }) => {
